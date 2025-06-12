@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #SBATCH --account=ACCOUNT HERE
 #SBATCH --partition=PARTITION HERE
 #SBATCH --ntasks-per-node=1
