@@ -1,3 +1,6 @@
+#SBATCH --job-name=ollama-python-test
+
+
 # Load necessary modules
 # nvidia/cuda-12.4.0
 

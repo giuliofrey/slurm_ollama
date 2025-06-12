@@ -1,12 +1,4 @@
-#!/bin/bash
 #SBATCH --job-name=ollama-test
-#SBATCH --account=ACCOUNT HERE
-#SBATCH --partition=PARTITION HERE
-#SBATCH --ntasks-per-node=1
-#SBATCH --gpus=1
-#SBATCH --output=out/%x_%j.out
-#SBATCH --mail-type=END
-#SBATCH --mail-user=MAIL HERE
 
 # Load necessary modules
 # nvidia/cuda-12.4.0

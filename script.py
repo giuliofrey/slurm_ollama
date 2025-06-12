@@ -1,4 +1,5 @@
 import ollama
+
 def test_ollama():
     # Test if the ollama package can be imported and used
     try:
