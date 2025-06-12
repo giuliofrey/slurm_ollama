@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SLURM_CONFIG_FILE="slurm_config.txt"
-SCRIPTS=("pull_models.sh" "test.sh" "run_python.sh")
+SCRIPTS=("pull_models.sh" "test.sh" "test_python.sh")
 
 if grep -q "HERE" "$SLURM_CONFIG_FILE"; then
     echo "slurm_config.txt still has placeholders. Please update it before running."
