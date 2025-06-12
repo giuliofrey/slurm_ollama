@@ -41,7 +41,7 @@ pip install ollama
 
 ```sh
 # Download the Ollama binary
-bash [download.sh]
+bash download.sh
 # Pull a model using SLURM
 sbatch pull_models.sh
 # Test the Ollama server
