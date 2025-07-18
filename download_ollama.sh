@@ -10,4 +10,5 @@ if [ $? -ne 0 ]; then
     echo "Error extracting ollama. Please check the downloaded file."
     exit 1
 fi
-echo "Ollama downloaded and extracted successfully."
+echo "Ollama downloaded and extracted successfully, cleaning up..."
+rm ollama.tar.gz

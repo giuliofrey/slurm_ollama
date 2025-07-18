@@ -8,7 +8,7 @@
 #source activate base
 #conda activate ollama_env
 
-cd /home/ACCOUNT/slurm_ollama
+cd "$HOME/slurm_ollama"
 
 # Run Ollama server
 bin/ollama serve &

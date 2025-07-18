@@ -4,7 +4,7 @@
 # nvidia/cuda-12.4.0
 
 
-cd /home/ACCOUNT/slurm_ollama
+cd "$HOME/slurm_ollama"
 
 # Run Ollama server
 bin/ollama serve &

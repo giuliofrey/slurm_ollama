@@ -7,7 +7,7 @@ All the scripts do not require sudo privileges and are designed to be run in a u
 ## Structure
 
 - `append_config.sh` – Appends necessary configurations to the SLURM configuration file.
-- `download.sh` – Downloads and extracts the Ollama binary release.
+- `download_ollama.sh` – Downloads and extracts the Ollama binary release.
 - `pull_models.sh` – SLURM batch script to start the Ollama server and pull a model.
 - `script.py` – Python script to test the Ollama Python package.
 - `slurm_config.txt` – Template SLURM configuration file to append necessary settings for Ollama.
@@ -44,7 +44,7 @@ pip install ollama
 
 ```sh
 # Download the Ollama binary
-bash download.sh
+bash download_ollama.sh
 # Append the SLURM configuration
 bash append_config.sh
 # Pull a model using SLURM

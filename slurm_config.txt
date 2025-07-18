@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 #SBATCH --account=ACCOUNT HERE
 #SBATCH --partition=PARTITION HERE
